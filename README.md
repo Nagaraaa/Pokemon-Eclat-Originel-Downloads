@@ -2,12 +2,14 @@
 
 Version Windows de test, en français. Chaque joueur conserve sa sauvegarde et sa progression. Le bouton **Coop** rejoint le serveur commun, puis les salons se choisissent dans le jeu.
 
-**[Télécharger la version Windows 0.3.3-preview.1](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.3.3-preview.1/Pokemon-Eclat-Originel-Windows-0.3.3-preview.1.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.3.3-preview.1)
+**[Télécharger la version Windows 0.3.3-preview.2](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.3.3-preview.2/Pokemon-Eclat-Originel-Windows-0.3.3-preview.2.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.3.3-preview.2)
 
 1. Télécharger puis extraire entièrement le ZIP.
 2. Ouvrir **EclatOriginel.exe** dans le dossier extrait.
 3. Choisir **Solo** ou **Coop**, puis appuyer sur **START** à l’écran titre.
 4. En Coop, créer un salon ou rejoindre celui d’un ami, puis choisir **JOUER**.
+
+Software (Qt) est l'affichage initial. Pour mettre à jour, extraire dans un nouveau dossier : les sauvegardes, touches et réglages de manette existants restent conservés.
 
 Les fichiers du dossier doivent rester ensemble. L’émulateur et les dépendances sont inclus ; aucun script Lua ou outil réseau à installer séparément. Le serveur doit être en ligne pour accéder à la Coop.
 

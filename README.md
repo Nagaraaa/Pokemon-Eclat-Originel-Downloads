@@ -1,25 +1,35 @@
 # Pokémon Éclat Originel — Téléchargements
 
-Version Windows de test, en français. Chaque joueur conserve sa sauvegarde et sa progression. Le bouton **Coop** rejoint le serveur commun, puis les salons se choisissent dans le jeu.
+Une aventure française basée sur Rouge Feu, avec une sauvegarde et une équipe personnelles par joueur.
 
-**[Télécharger la version Windows 0.3.3-preview.3](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.3.3-preview.3/Pokemon-Eclat-Originel-Windows-0.3.3-preview.3.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.3.3-preview.3)
+**[Télécharger Windows 0.4.0-preview.1](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.4.0-preview.1/Pokemon-Eclat-Originel-Windows-0.4.0-preview.1.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.4.0-preview.1)
 
-1. Télécharger puis extraire entièrement le ZIP.
-2. Ouvrir **EclatOriginel.exe** dans le dossier extrait.
-3. Choisir **Solo** ou **Coop**, puis appuyer sur **START** à l’écran titre.
-4. En Coop, créer un salon ou rejoindre celui d’un ami, puis choisir **JOUER**.
+Cette préversion ajoute un premier **combat duo** : chacun choisit l'attaque et la cible du premier Pokémon apte de son équipe. Les copies combattent soignées, sans objet ni récompense. Les équipes originales sont restaurées à la sortie.
 
-Software (Qt) est l'affichage initial. Pour mettre à jour, extraire dans un nouveau dossier : les sauvegardes, touches et réglages de manette existants restent conservés.
+## Installer
 
-Cette version corrige les positions bloquées en accéléré sous latence et conserve le partenaire visible pendant ses menus et combats.
+1. Extraire entièrement le ZIP dans un nouveau dossier et conserver l'ancien.
+2. Ouvrir **EclatOriginel.exe**. L'émulateur et ses dépendances sont inclus.
+3. Choisir **Solo** pour reprendre son aventure.
 
-Les fichiers du dossier doivent rester ensemble. L’émulateur et les dépendances sont inclus ; aucun script Lua ou outil réseau à installer séparément. Le serveur doit être en ligne pour accéder à la Coop.
+Les sauvegardes restent dans `%LOCALAPPDATA%/EclatOriginel/saves`. Les touches et réglages de manette existants sont conservés ; Software (Qt) est l'affichage initial. Sauvegarder depuis le menu du jeu. Les anciens états instantanés d'une autre ROM ne sont pas compatibles.
 
-Les sauvegardes personnelles restent dans `%LOCALAPPDATA%/EclatOriginel/saves`. Elles ne sont pas présentes dans le téléchargement. Utiliser la sauvegarde `.sav` du jeu pour reprendre une partie ; les anciens états instantanés d’une autre ROM ne sont pas compatibles.
+## Essayer le combat à deux
 
-Clavier initial : flèches pour marcher, **X = A / valider**, **Z = B / retour**, **Entrée = START**. Les touches de manette sont configurables dans **Commandes** ; les réglages personnels déjà enregistrés sont conservés.
+**Utiliser un serveur PC de cette version, d'abord sur le même Wi-Fi. Le Xiaomi n'a pas été mis à jour pour les combats duo.**
 
-L’aventure et les IV/EV sont en français. Les combats coopératifs et les échanges restent à développer. La synchronisation a été testée avec deux vraies ROM sur un PC, à ×1/×4/×8 et avec 200/400 ms de délai simulé. Une nouvelle partie humaine entre deux maisons reste à valider.
+1. L'hôte ouvre **Paramètres → Serveur dédié**. Les deux joueurs sélectionnent ce serveur dans **Paramètres → Réseau local**, puis créent ou rejoignent le même salon.
+2. Se retrouver sur une carte, former le groupe avec **A → INVITER**, puis proposer **A → COMBAT DUO**.
+3. Le partenaire accepte dans **START → GROUPE → COMBAT DUO**. Chacun commande son Pokémon.
 
-Ce dépôt distribue les versions de test. Les mentions et licences des dépendances sont incluses dans chaque archive.
+Le guide **COMBAT-DUO.md** inclus détaille les règles et les essais à ×1/×4/×8, l'abandon et les coupures. L'[archive serveur PC](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.4.0-preview.1/Pokemon-Eclat-Originel-Serveur-Windows-0.4.0-preview.1.zip) permet un hébergement séparé ; elle n'est pas nécessaire avec le serveur intégré au jeu.
 
+Les tests automatisés utilisent deux vraies ROM sur un ordinateur, avec vitesses différentes et latence simulée. Le lancement Windows et le serveur inclus sont vérifiés séparément. **La partie humaine sur deux PC reste à valider.** La connexion Internet automatique à ce nouveau serveur PC reste à préparer. Les combats de scénario et les échanges restent à développer.
+
+Pour continuer l'exploration sur l'ancien serveur Xiaomi, la [version 0.3.3-preview.3](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.3.3-preview.3) reste disponible.
+
+## Commandes
+
+Flèches pour marcher, **X = A**, **Z = B**, **Entrée = START**, **Retour arrière = SELECT**. **Commandes** permet de régler le clavier, les manettes PS4/PS5 et les raccourcis ×2/×4/×8. Les IV/EV sont accessibles avec SELECT sur la page des statistiques.
+
+Les mentions et licences des dépendances accompagnent les archives. Le fichier de sommes SHA-256 joint à chaque version permet de vérifier les téléchargements.

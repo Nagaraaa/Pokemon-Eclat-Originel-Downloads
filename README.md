@@ -2,15 +2,15 @@
 
 Une aventure coopérative basée sur Rouge Feu. Chacun garde son équipe, sa sauvegarde et sa progression.
 
-**[Télécharger pour Windows — 0.5.0-preview.1](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.5.0-preview.1/Pokemon-Eclat-Originel-Windows-0.5.0-preview.1.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.5.0-preview.1)
+**[Télécharger pour Windows — 0.5.0-preview.2](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.5.0-preview.2/Pokemon-Eclat-Originel-Windows-0.5.0-preview.2.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.5.0-preview.2)
 
-Cette version intègre le Casino de Céladopole, le Comptoir des Œufs et un lanceur avec les éléments de Rouge Feu. Le premier Pokémon apte suit le dresseur dehors et dans les bâtiments, en Solo et en Coop. Le combat duo permet à chacun de commander son premier Pokémon, sans récompense et avec restauration des équipes.
+Cette version apporte un nouveau lanceur dessiné comme un écran de Rouge Feu, avec le PC de Léo, et une nouvelle chambre de départ. Le Casino de Céladopole et le Comptoir des Œufs sont toujours là. Le premier Pokémon apte suit le dresseur dehors et dans les bâtiments, en Solo et en Coop. Le combat duo permet à chacun de commander son premier Pokémon, sans récompense et avec restauration des équipes.
 
 ## Installer
 
 1. Extraire entièrement le ZIP dans un **nouveau dossier** ; conserver l'ancien.
 2. Ouvrir **EclatOriginel.exe**. L'émulateur et ses dépendances sont inclus.
-3. Au premier lancement, déposer son original **Rouge Feu 1.0 français** ou **FireRed 1.0 anglais US**, ou cliquer **Parcourir**. Le lanceur le vérifie et prépare le jeu.
+3. Au premier lancement, glisser son original **Rouge Feu 1.0 français** ou **FireRed 1.0 anglais US** sur la fenêtre, ou cliquer sur le **PC de Léo**. Le lanceur le vérifie et prépare le jeu ; Léo répond en bas de la fenêtre.
 4. Choisir **Solo** pour reprendre son aventure, ou **Coop** pour rejoindre le serveur.
 
 Le paquet contient les correctifs UPS des deux langues et **aucune ROM**. Garder la langue de sa sauvegarde : le lanceur ne la convertit pas.
@@ -19,7 +19,7 @@ Les sauvegardes restent dans `%LOCALAPPDATA%/EclatOriginel/saves`. Les touches P
 
 ## Jouer avec un ami
 
-Le **serveur Xiaomi est à jour en 0.5.0-preview.1**. Sur chaque PC :
+Le **serveur Xiaomi en 0.5.0-preview.1** reste compatible avec cette version. Sur chaque PC :
 
 1. Cliquer **Coop** : la connexion au Xiaomi est automatique.
 2. Dans le jeu, l'un crée un salon et l'autre le rejoint.
@@ -42,4 +42,4 @@ Flèches pour marcher, **X = A**, **Z = B**, **Entrée = START**, **Retour arri�
 
 Les tests couvrent le vrai cœur GBA, les trois jeux avec le serveur SQLite, les reprises et coupures, le lanceur, Qt Windows et le trajet Internet vers le Xiaomi. Une nouvelle partie humaine sur deux PC reste à valider. Les mises ordinaires en jetons attendent une sauvegarde native pour devenir durables : sauvegarder avant de fermer le jeu.
 
-Les licences accompagnent les archives. **SHA256SUMS-0.5.0-preview.1.txt** permet de vérifier les trois ZIP. Les versions précédentes restent dans l'historique des publications.
+Les licences accompagnent les archives. **SHA256SUMS-0.5.0-preview.2.txt** permet de vérifier le ZIP Windows ; les archives serveur, inchangées, restent vérifiables avec **SHA256SUMS-0.5.0-preview.1.txt**. Les versions précédentes restent dans l'historique des publications.

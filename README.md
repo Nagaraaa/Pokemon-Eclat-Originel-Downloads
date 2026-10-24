@@ -2,9 +2,9 @@
 
 Une aventure coopérative basée sur Rouge Feu. Chacun garde son équipe, sa sauvegarde et sa progression.
 
-**[Télécharger pour Windows — 0.5.0-preview.2](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.5.0-preview.2/Pokemon-Eclat-Originel-Windows-0.5.0-preview.2.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.5.0-preview.2)
+**[Télécharger pour Windows — 0.5.0-preview.3](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/download/v0.5.0-preview.3/Pokemon-Eclat-Originel-Windows-0.5.0-preview.3.zip)** · [Notes de version](https://github.com/Nagaraaa/Pokemon-Eclat-Originel-Downloads/releases/tag/v0.5.0-preview.3)
 
-Cette version apporte un nouveau lanceur dessiné comme un écran de Rouge Feu, avec le PC de Léo, et une nouvelle chambre de départ. Le Casino de Céladopole et le Comptoir des Œufs sont toujours là. Le premier Pokémon apte suit le dresseur dehors et dans les bâtiments, en Solo et en Coop. Le combat duo permet à chacun de commander son premier Pokémon, sans récompense et avec restauration des équipes.
+Cette version libère de la mémoire dans la version anglaise et clarifie un message du lanceur ; le lanceur dessiné comme un écran de Rouge Feu, avec le PC de Léo, et la nouvelle chambre de départ restent. Le Casino de Céladopole et le Comptoir des Œufs sont toujours là. Le premier Pokémon apte suit le dresseur dehors et dans les bâtiments, en Solo et en Coop. Le combat duo permet à chacun de commander son premier Pokémon, sans récompense et avec restauration des équipes.
 
 ## Installer
 
@@ -42,4 +42,4 @@ Flèches pour marcher, **X = A**, **Z = B**, **Entrée = START**, **Retour arri�
 
 Les tests couvrent le vrai cœur GBA, les trois jeux avec le serveur SQLite, les reprises et coupures, le lanceur, Qt Windows et le trajet Internet vers le Xiaomi. Une nouvelle partie humaine sur deux PC reste à valider. Les mises ordinaires en jetons attendent une sauvegarde native pour devenir durables : sauvegarder avant de fermer le jeu.
 
-Les licences accompagnent les archives. **SHA256SUMS-0.5.0-preview.2.txt** permet de vérifier le ZIP Windows ; les archives serveur, inchangées, restent vérifiables avec **SHA256SUMS-0.5.0-preview.1.txt**. Les versions précédentes restent dans l'historique des publications.
+Les licences accompagnent les archives. **SHA256SUMS-0.5.0-preview.3.txt** permet de vérifier le ZIP Windows ; les archives serveur, inchangées, restent vérifiables avec **SHA256SUMS-0.5.0-preview.1.txt**. Les versions précédentes restent dans l'historique des publications.
